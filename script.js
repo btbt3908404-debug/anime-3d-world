@@ -23,7 +23,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 
 renderer.domElement.style.position = "fixed";
 renderer.domElement.style.inset = "0";
-renderer.domElement.style.zIndex = "-1";
+renderer.domElement.style.zIndex = "0";
 
 document.body.prepend(renderer.domElement);
 
